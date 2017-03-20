@@ -1,0 +1,97 @@
+/*-------------
+		Filter
+-------------*/
+ul#filter
+{
+	margin: 10px 0 25px 0;
+}
+
+ul#filter>li
+{
+	min-width: 100px;
+	height: 24px;
+	line-height: 20px;
+	text-align: center;
+}
+
+ul#filter>li>a
+{
+	color: #a9a9a9;
+}
+
+ul#filter>.active,
+ul#filter>li:hover
+{
+	width: 24px;
+	height: 24px;
+	border-radius: 15px;
+	border: solid 1px #722881;
+}
+
+ul#filter>.active a,
+ul#filter>li:hover a
+{
+	color: #722881;
+}
+
+
+
+/*-------------
+		Listes items
+------------*/
+.thumbnail
+{
+	margin-top: 10px;
+	height: 215px;
+	z-index: 0;
+}
+
+a.thumbnail:hover
+{
+	border-color: #722881;
+}
+
+.thumbnail>.caption
+{
+	text-align: left;
+	
+}
+
+/*---------------
+		For sale
+---------------*/
+.for-sale
+{
+	margin: 0;
+	padding: 10px 10px 10px 12px;
+	position: absolute;
+	top: -15px;
+	left: -5px;
+	width: 50px;
+	height: 50px;
+	line-height: 35px;
+	border-radius: 100%;
+	background-color: #722881;
+	color: #ffffff;
+	opacity: 0.8;
+	z-index: 10;
+}
+
+.for-sale2
+{
+	position: absolute;
+	top: 5px;
+	margin:0;
+	z-index: 10;
+	padding: 5px 15px;
+
+	width: 86%;
+	height: 25px;
+	line-height: 13px;
+
+	background-color: #722881;
+	color: #fff;
+
+	 border-top-right-radius: 5px;
+	 border-top-left-radius: 5px;
+}

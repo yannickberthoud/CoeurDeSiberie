@@ -1,0 +1,187 @@
+html,body
+{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+}
+
+/*------------------
+		General
+------------------*/
+h1
+{
+	margin-bottom: 33px;
+}
+h3 small {
+	margin-top: 10px;
+}
+
+a {
+	color: #722881;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+
+/*-------------------
+		Top header
+-------------------*/
+#top-header {
+	margin: 0;
+	padding: 0;
+
+	height: 24px;
+	line-height: 23px;
+	color: #fff;
+	background-color: #722881;
+}
+
+#top-header ul#languages li a img
+{
+	filter: grayscale(50%);
+	-webkit-filter: grayscale(50%)
+}
+
+#top-header ul#languages li.active a img,
+#top-header ul#languages li:hover a img
+{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+}
+
+#top-header ul#languages li.active a img
+{
+	cursor: not-allowed;
+}
+
+/*--------------------
+		News
+--------------------*/
+ul.list-vertical
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul.list-vertical li
+{
+	margin: 0;
+	padding: 7px 0 10px 0;
+
+	display: block;
+
+	width: 100%;
+	height: 30px;
+	line-height: 17px;
+
+	list-style-type: none;
+	border-bottom: dotted 1px #000;
+}
+
+ul.list-vertical li a
+{
+	text-decoration: none;
+	display: block;
+} 
+
+/*---------------------
+		terrariophile
+---------------------*/
+
+#IsUserTerrariophileLabel {
+	margin-right: 55px;
+}
+
+/*-------------------
+		Navbar
+-------------------*/
+.navbar {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 0px;
+  background: transparent;
+  border-bottom: solid 1px #c1c1c1;
+}
+
+.navbar.navbar-fixed-top
+{
+	background: #ffffff;
+}
+
+.navbar.navbar-fixed-top .navbar-brand,
+.navbar.navbar-fixed-top ul.dropdown-menu a
+{
+	color: #722881;
+}
+
+.navbar.navbar-fixed-top a,
+
+.navbar-default .navbar-nav.navbar-fixed-top>.active>a:focus, 
+.navbar-default .navbar-nav.navbar-fixed-top>.active>a:hover, 
+.navbar-default .navbar-nav.navbar-fixed-top>li:hover>a
+{
+	color: #fff;
+	border: none;
+}
+
+a.navbar-brand {
+    font-style: italic;
+    font-family: 'Lucida Caligraphy';
+    color: #722881;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li:hover>a {
+	color: #722881;
+	background: none;
+	border-bottom: solid 5px #722881;
+}
+
+.navbar-default .navbar-form {
+	margin-top: 15px;
+}
+
+.navbar-default #phone-list li.disabled a
+{
+	color: #000;
+}
+
+.navbar-default #phone-list li.disabled:hover a
+{
+	cursor: default;
+	border-bottom: none;
+}
+
+/*-----------------
+		Content
+-----------------*/
+#body-content
+{
+	min-height: 700px;
+	height: auto !important;
+	height: 700px;
+}
+
+/*----------------
+		Share
+----------------*/
+#share {
+	background: #eaeaea;
+
+    padding: 15px 0 15px;
+}
+
+/*-----------------
+		Copyright
+-----------------*/
+#copyright {
+	clear: both;
+	height: 35px;
+	line-height: 35px;
+	color: #e9e9e9;
+	background-color: #000;
+}

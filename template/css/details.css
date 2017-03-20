@@ -1,0 +1,70 @@
+/*----------------
+		For sale
+----------------*/
+
+#label-for-sale
+{
+	z-index: 10;
+	padding: 3px 7px;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+
+	background: #722881;
+	color: #fff;
+	width: 150px;
+	height: 30px;
+	line-height: 23px;
+	text-align: center;
+
+	/* Rotate div */
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+.btn.btn-for-sale
+{
+	background: #722881;
+	color: #fff;
+
+	border-radius: 0;
+	width: 100%;
+}
+
+/*----------------
+		Carousel
+----------------*/
+.carousel
+{
+	margin-top: 3px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{
+	width: 100%;
+	height: 300px;
+}
+
+/*----------------
+		Basic Informations
+----------------*/
+ul#informations
+{
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+ul#informations>li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-grid;
+	width: 100%;
+	height: 25px;
+	line-height: 17px;
+}
+
+ul#informations>li>span.id
+{
+	font-weight: bold;
+}
